@@ -17,6 +17,13 @@ wheels/
 
 # ===== Node（產生 docx 用的工具）=====
 node_modules/
+package.json
+package-lock.json
+
+# ===== 報告/Notebook 產生工具（本機保留，不公開於 repo）=====
+build_notebook.py
+build_report.js
+build_llm_log.js
 
 # ===== 系統/編輯器 =====
 .ipynb_checkpoints/
