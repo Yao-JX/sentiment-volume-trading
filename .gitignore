@@ -1,0 +1,28 @@
+# ===== 大型原始資料（勿上傳，改用報告內的 Google Drive 連結取得）=====
+drive_data/ptt.stock20260520.json
+drive_data/*.part
+*.part
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+wheels/
+
+# ===== 虛擬環境 =====
+.venv/
+.uv/
+
+# ===== Node（產生 docx 用的工具）=====
+node_modules/
+
+# ===== 系統/編輯器 =====
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# 不公開老師作業文件與作廢舊版
+final_project_statement.pdf
+Untitled4.ipynb
